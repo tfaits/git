@@ -1,7 +1,7 @@
-#!/usr/bin/python
 
-import sys
-tempC = int(sys.argv[1])
-tempK = tempC +274
-print tempK
+def k_to_c(temp):
+    return temp-273.15
+
+def f_to_k(temp):
+    return (temp-32)*5/9+273.15
 
